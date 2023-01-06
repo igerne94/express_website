@@ -1,0 +1,31 @@
+//- extends layout
+
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    title #{title}
+    // Bootstrap core CSS
+    link(href='stylesheets/bootstrap.css' rel='stylesheet')
+    // Custom styles for this template
+    link(href='stylesheets/style.css' rel='stylesheet')
+  body
+    .jumbotron
+      .container
+          h1 Welcome to #{title}
+          p How may I help you?
+          a.btn.btn-primary.btn-lg(href='#') Learn more &raquo;
+    .container
+      .row
+        .col-md-4
+          h2 About Me
+          p Hello! It's me.
+          a.btn.btn-default(href='#') Explore &raquo;
+        .col-md-4
+          h2 My experience
+          p Hello! It's me.
+          a.btn.btn-default(href='#') Explore &raquo;
+        .col-md-4
+          h2 Get in touch
+          p Hello! It's me.
+          a.btn.btn-default(href='#') Explore &raquo;
