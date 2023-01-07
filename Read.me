@@ -1,0 +1,20 @@
+1. When using bootstrap templates, before .jade conversion, we need to add links to bootstrap.js and keep the link to jQuery at the bottom.
+2. And specify addresses to 
+    <!-- Bootstrap core CSS -->
+    <link href="stylesheets/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="stylesheets/style.css" rel="stylesheet">
+3. Use jade converter
+4. Don't forget about:
+    doctype html 
+    html 
+        head
+        title Express Website
+        meta( charset='utf-8' )
+        meta( http-equiv='X-UA-Compatible', content='IE=edge')
+        meta( name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+...in the layout.jade
+5. Set up test account to avoid 'EAUTH' errors: https://stackoverflow.com/questions/45478293/username-and-password-not-accepted-when-using-nodemailer

@@ -1,31 +1,22 @@
-//- extends layout
+extends layout 
 
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
-    title #{title}
-    // Bootstrap core CSS
-    link(href='stylesheets/bootstrap.css' rel='stylesheet')
-    // Custom styles for this template
-    link(href='stylesheets/style.css' rel='stylesheet')
-  body
-    .jumbotron
-      .container
-          h1 Welcome to #{title}
-          p How may I help you?
-          a.btn.btn-primary.btn-lg(href='#') Learn more &raquo;
+block content
+  .jumbotron
     .container
-      .row
-        .col-md-4
-          h2 About Me
-          p Hello! It's me.
-          a.btn.btn-default(href='#') Explore &raquo;
-        .col-md-4
-          h2 My experience
-          p Hello! It's me.
-          a.btn.btn-default(href='#') Explore &raquo;
-        .col-md-4
-          h2 Get in touch
-          p Hello! It's me.
-          a.btn.btn-default(href='#') Explore &raquo;
+      h1 Welcome to #{title}
+      p How may I help you?
+      a.btn.btn-primary.btn-lg(href='#') Learn more &raquo;
+  .container
+    .row
+      .col-md-4
+        h2 About Me
+        p Integer tempus ornare felis eget luctus. Nulla rhoncus porttitor finibus. Donec et orci vel nibh scelerisque scelerisque ac sagittis sem. Cras ullamcorper a eros sed tempor. Donec vel libero in arcu egestas venenatis vel id diam. Donec et luctus nisi, eu pellentesque libero. Curabitur ultrices tristique quam, ac congue arcu bibendum finibus. Quisque quis interdum enim, ut tristique lorem. Aliquam augue libero, consequat eget aliquam ut, faucibus a dui. Nam mollis placerat dui, id iaculis nunc lobortis id. Quisque ut ante aliquet, pulvinar metus non, maximus turpis. Suspendisse nec diam nisi. Quisque nec turpis vel neque gravida ultricies.
+        a.btn.btn-default(href='#') Explore &raquo;
+      .col-md-4
+        h2 My experience
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet ex ac lectus volutpat dignissim. Vestibulum ac semper nulla. Integer nibh felis, finibus tristique sagittis sit amet, facilisis rhoncus enim. Mauris fermentum a risus et placerat. Sed auctor consectetur purus, eget tincidunt leo. Phasellus at risus quis nibh accumsan mattis. Quisque vulputate euismod luctus. Vestibulum ultrices blandit leo id dictum. Morbi semper efficitur dapibus. Mauris erat elit, finibus eu efficitur ac, vestibulum luctus turpis. Vivamus at sollicitudin neque, eget consectetur diam. Vivamus elementum eros non laoreet consectetur.
+        a.btn.btn-default(href='#') Explore &raquo;
+      .col-md-4
+        h2 Get in touch
+        p Donec semper, ante in pulvinar tempor, leo lorem sodales nisl, tincidunt scelerisque lorem turpis sit amet felis. Mauris id laoreet lacus. Phasellus sed dapibus lacus, ac tempus nisi. Suspendisse ac mollis ante. Vestibulum nec elit id justo posuere vestibulum sit amet in magna. Nullam aliquam et lacus interdum accumsan. Pellentesque lobortis tellus tincidunt risus laoreet elementum. Mauris dolor sem, pharetra sed ex non, malesuada eleifend magna. Fusce a maximus lectus. In euismod justo non elementum faucibus. Nullam ultrices diam ut orci mattis faucibus. Sed commodo tortor erat, sed luctus diam gravida a. Sed vel augue condimentum, gravida massa ac, volutpat arcu. Morbi pretium metus enim, nec convallis tellus laoreet nec. Donec leo enim, imperdiet a molestie gravida, convallis vel massa.
+        a.btn.btn-default(href='#') Explore &raquo;
